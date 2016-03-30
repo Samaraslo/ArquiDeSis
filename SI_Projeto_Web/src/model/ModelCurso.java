@@ -6,13 +6,13 @@ import dao.InformaticaDAO;
 import factory.ConnectionFactory;
 
 public class ModelCurso{
-   private int idCurso;
-   private String nomeCurso;
-   private String dataInicio;
-   private String dataTermino;
-   private String horario;
-   private int numeroVagas;
-   private double valorCurso;
+   protected int idCurso;
+   protected String nomeCurso;
+   protected String dataInicio;
+   protected String dataTermino;
+   protected String horario;
+   protected int numeroVagas;
+   protected double valorCurso;
 
 //getters e setters
    
