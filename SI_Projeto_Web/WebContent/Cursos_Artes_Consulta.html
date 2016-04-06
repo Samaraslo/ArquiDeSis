@@ -6,28 +6,70 @@
 </head>
 <body>
 
-<form action="manter_clientes.do" method="post">
+<div class="container">
 
-<h3>Preencha todos os campos abaixo</h3>
+	<form action="manter_clientes.do" method="post">
+	
+	<h3>Preencha todos os campos abaixo</h3>
+	
+		<fieldset>
+		
+		<div class="form-group">
+				<div class="form-group">
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" size="20" maxlength="30" placeholder="nome"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Data de Inicio</label>
+					<input type="text" name="dataIncio" size="10" maxlength="10" placeholder="dataInicio"><br><br>
+				</div>
+				<div class="form-group">
+					<label for="nome">Data de Fim</label>
+					<input type="text" name="dataFim" size="10" maxlength="10" placeholder="dataFim"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Horario</label>
+					<input type="text" name="horario" size="5" maxlength="5" placeholder="horario"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Valor</label>
+					<input type="number" name="valor" size="10" maxlength="10" placeholder="valor"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Numero de Vagas</label>
+					<input type="number" name="nVagas" size="4" maxlength="4" placeholder="nVagas"><br><br>
+				</div>
+				<div class="form-group">
+					<label for="nome">Descrição do Material</label>
+					<input type="text" name="descMaterial" size="20" maxlength="40" placeholder="descMaterial"><br><br>
+				</div>	
+				<div class="form-group">
+					<label for="nome">Nome dos Livros</label>
+					<input type="text" name="nomeLivros" size="20" maxlength="30" placeholder="nomeLivros"><br><br>
+				</div>	
+				<div class="form-group">
+					<label for="nome">Curso Disponivel</label>
+					<input type="checkbox" name="cursoDisponivel" size="4" maxlength="4" placeholder="cursoDisponivel"><br><br>
+				</div>				
+		
+		</div>
+		
+		</fieldset>
+	
+		<input type="Submit" name="acao" value="Excluir">
+		<input type="Submit" name="acao" value="Salvar">
+		<input type="Submit" name="acao" value="Limpar">
+		<input type="Submit" name="acao" value="Atualizar">
+	
+	
+	</form>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
-	Nome: <input type="text" name="nome"><br><br>
-	Data de Inicio: <input type="date" name="dataIncio"><br><br>
-	Data de Fim: <input type="date" name="dataFim"><br><br>
-	Horario: <input type="time" name="horario"><br><br>
-	Valor: <input type="number" name="valor"><br><br>
-	Numero de Vagas: <input type="number" name="nVagas"><br><br>
-	Descrição do Material: <input type="text" name="descMaterial"><br><br>
-	Nome dos Livros: <input type="text" name="nomeLivros"><br><br>
-	Curso Disponivel: <input type="checkbox" name="cursoDisponivel"><br><br>
-
-	<input type="Submit" name="acao" value="Excluir">
-	<input type="Submit" name="acao" value="Salvar">
-	<input type="Submit" name="acao" value="Limpar">
-	<input type="Submit" name="acao" value="Atualizar">
-
-
-</form>
-
+</div>
 
 </body>
 </html>
