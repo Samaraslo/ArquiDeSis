@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="container">
+<h3>Preencha todos os campos abaixo</h3>
+
+<form action="ManterAluno.do" method="post">
+	
+	
+	<fieldset>	
+	
+		<div class="form-group">
+			<div class="form-group">
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" size="20" maxlength="35" placeholder="nome"><br><br>
+			</div>
+		
+			<div class="form-group">
+				<label for="nome">Endereço</label>
+				<input type="text" name="endereco" size="20" maxlength="40" placeholder="endereco"><br><br>
+			</div>		
+			<div class="form-group">
+				<label for="nome">Telefone</label>
+				<input type="number" name="telefone" size="15" maxlength="11" placeholder="telefone"><br><br>
+			</div>
+		
+			<div class="form-group">
+				<label for="nome">E-Mail</label>
+				<input type="email" name="email" size="15" maxlength="25" placeholder="email"><br><br>
+			</div>
+		
+			<div class="form-group">
+				<label for="nome">RG</label>
+				<input type="text" name="rg" size="10" maxlength="8" placeholder="rg"><br><br>
+			</div>
+		
+			<div class="form-group">
+				<label for="nome">CPF</label>
+				<input type="text" name="cpf" size="15" maxlength="11" placeholder="cpf"><br><br>
+			</div>
+		</div>		
+		
+	</fieldset>	
+	
+		<input type="Submit" name="acao" value="Excluir">
+		<input type="Submit" name="acao" value="Salvar">
+		<input type="Submit" name="acao" value="Limpar">
+		<input type="Submit" name="acao" value="Atualizar">
+		
+</form>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>

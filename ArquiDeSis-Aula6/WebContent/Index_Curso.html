@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Curso</title>
+</head>
+<body>
+<div class="container">
+
+	<form action="ManterCurso.do" method="post">
+	
+	<h3>Preencha todos os campos abaixo</h3><br><br><br>
+		
+		<fieldset>
+		
+			<div class="form-group">
+				<div class="form-group">
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" size="20" maxlength="30" placeholder="nome"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Data de Inicio</label>
+					<input type="text" name="dataIncio" size="10" maxlength="10" placeholder="dataInicio"><br><br>
+				</div>
+				<div class="form-group">
+					<label for="nome">Data de Fim</label>
+					<input type="text" name="dataFim" size="10" maxlength="10" placeholder="dataFim"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Horario</label>
+					<input type="text" name="horario" size="5" maxlength="5" placeholder="horario"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Valor</label>
+					<input type="number" name="valor" size="10" maxlength="10" placeholder="valor"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Numero de Vagas</label>
+					<input type="number" name="nVagas" size="4" maxlength="4" placeholder="nVagas"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Numero do Laboratorio</label>
+					<input type="text" name="nLaboratorio" size="5" maxlength="5" placeholder="nLaboratorio"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Registro de Software</label>
+					<input type="text" name="regSoftware"size="15" maxlength="30" placeholder="regSoftware"><br><br>
+				</div>			
+				<div class="form-group">
+					<label for="nome">Curso Disponivel</label>
+					<input type="checkbox" name="cursoDisponivel"><br><br>
+				</div>
+			</div>
+			
+		</fieldset>				
+		
+		<input type="Submit" name="acao" value="Excluir">
+		<input type="Submit" name="acao" value="Salvar">
+		<input type="Submit" name="acao" value="Limpar">
+		<input type="Submit" name="acao" value="Atualizar">
+	
+	</form>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</div>
+
+</body>
+</html>
