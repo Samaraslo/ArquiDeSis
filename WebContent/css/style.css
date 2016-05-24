@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+/*
+ * style.css
+ */
+body {
+  padding-top: 50px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #9B3D9C!important;
+	border-color: #CC5BC8!important;
+}
+
+.titlePageIncluir{
+	padding-bottom: 90px;
+	text-align: center;
+	color: #9B3D9C;
+	font-size: 40px!important;
+}
+
+h2{
+    text-align: center;
+    background-color: #9B3D9C!important;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#imagemAluno{
+	background: url("../img/alunoIcone.png");
+}
+#imagemArtes{
+	background: url("../img/artesIcone.png");
+}
+#imagemInformatica{
+	background: url("../img/infoIcone.png");
+}
+.imagem{
+	width: 284px;
+    padding: 55px;
+    margin: 18px 0px 0px 19px;
+    background-repeat: no-repeat!important;
+    background-size: 150px 100px!important;	
+}
